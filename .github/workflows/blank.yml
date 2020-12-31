@@ -31,5 +31,5 @@ jobs:
       - run: |
           pip install -r scraping/requirements.txt
           python scraping/main.py
-      - env:
+        env:
           PAT: ${{ secrets.PAT }}
