@@ -6,7 +6,7 @@ name: lotto645_crawler
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   schedule:
-      - cron: '36 11 * * *'
+      - cron: '44 11 * * *'
 #       - cron: '0 14 * * 6'
 
   # Allows you to run this workflow manually from the Actions tab
